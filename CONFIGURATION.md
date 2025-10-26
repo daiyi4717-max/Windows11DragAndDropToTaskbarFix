@@ -14,7 +14,7 @@ You can include the following variables to your `Windows11DragAndDropToTaskbarFi
 - 1 = YES. The program will create the `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\Windows11DragAndDropToTaskbarFix` registry key.
 - 0 = NO. The program will delete the existing autorun registry key if it exists.
 ```
-AutomaticallyRunThisProgramOnStartup=0
+AutomaticallyRunThisProgramOnStartup=1
 ```
 
 #### Should the program start as administrator?
@@ -28,7 +28,7 @@ StartThisProgramAsAdministrator=0
 - 1 = YES. A console window will be shown on program start.
 - 0 = NO. The program will start invisibly and no extra window will pop-up.
 ```
-ShowConsoleWindowOnStartup=0
+ShowConsoleWindowOnStartup=1
 ```
 
 #### Should the program print the debug information?
@@ -83,7 +83,7 @@ AutoOpenFirstWindowInBestMethodEver=2
 - 0 = NO. Never open pinned apps with no active window.
 
 ```
-AutoOpenPinnedAppsEvenWhenNoWindowActive=0
+AutoOpenPinnedAppsEvenWhenNoWindowActive=1
 ```
 
 #### Should the program check colors of pixels in order to prevent the accidental events when no item is being dragged? It solves issues [#1](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix/issues/1) and [#28](https://github.com/HerMajestyDrMona/Windows11DragAndDropToTaskbarFix/issues/28).
